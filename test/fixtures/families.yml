@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  member_owner: MyString
+  other_members: MyText
+  address: MyText
+  phonenumber: MyString
+  others_information: MyText
+  day_week: 1
+
+two:
+  member_owner: MyString
+  other_members: MyText
+  address: MyText
+  phonenumber: MyString
+  others_information: MyText
+  day_week: 1

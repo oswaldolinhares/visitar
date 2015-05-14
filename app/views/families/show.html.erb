@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Member owner:</strong>
+  <%= @family.member_owner %>
+</p>
+
+<p>
+  <strong>Other members:</strong>
+  <%= @family.other_members %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @family.address %>
+</p>
+
+<p>
+  <strong>Phonenumber:</strong>
+  <%= @family.phonenumber %>
+</p>
+
+<p>
+  <strong>Others information:</strong>
+  <%= @family.others_information %>
+</p>
+
+<p>
+  <strong>Day week:</strong>
+  <%= @family.day_week %>
+</p>
+
+<%= link_to 'Edit', edit_family_path(@family) %> |
+<%= link_to 'Back', families_path %>
